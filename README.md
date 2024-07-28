@@ -27,11 +27,14 @@ Individual Data: individual_stocks_5yr folder - contains separate files for each
 
 ### how I am using the dataset: 
 
-1. Scenario Analysis for Portfolio Stress Testing
+1. Scenario Analysis for Portfolio Stress Testing: "Financial Crisis Scenario". This scenario is particularly relevant because financial crises often have significant impacts on markets and can provide insights into how your portfolio might perform under extreme conditions.
+Objective: Evaluate how a significant economic downturn or financial crisis impacts your portfolio. This could involve a sudden market crash, a recession, or a severe economic downturn.
 
+Key Assumptions:
+Market Drop: Assuming a substantial drop in stock prices. For example, a 30% decline in the closing prices of all stocks in the portfolio.
+Increased Volatility: During a financial crisis, market volatility often increases. This can be factored into your model by increasing the standard deviation of returns.
+Sector Impact: Different sectors may be affected differently. Consider how a crisis might impact various sectors in your portfolio.
 Objective: Evaluating the performance of financial portfolios under different economic scenarios.
-
-Approach: Developing models to simulate the impact of various macroeconomic scenarios (e.g., financial crises, interest rate changes) on portfolio returns.
 
 
 2.  Value at Risk (VaR) and Conditional Value at Risk (CVaR)
